@@ -13,6 +13,7 @@ How to use it:
         python -m SimpleHTTPServer 9914
     #. Setup your IDE to automatically save your source file every second.
     #. Go to collabedit.com site and find the plugins controls below the main textarea.
+    #. Screencast: http://www.youtube.com/watch?v=GYFRFNSQhxk
 
 Tips:
 -----

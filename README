@@ -16,9 +16,11 @@ Tips:
     1. The plugin might be helpful in facebook technical interview. 
     2. I strongly reccomend you to ask your interviewer for permission, before you use the plugin. 
     3. You are using it for your own responsibility! I am not responsible for any potential interview failures, caused by the plugin. 
-
     4. Double check that the plugin works fine for you. Especially, it may stop working after collabedit software update.
 
+How does it work:
+    The plugin reads a specified file in short intervals. That means, the file needs to be saved very often in order to let the plugin "see" the changes. 
+    The solution is not very sophisticated, nor effective but for one-time collabedit-collaboration is just enough.
 
 Limitations:
     1. When the plugin is enabled, all the changes of your collaborators would be overwritten.

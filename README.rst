@@ -5,29 +5,30 @@ This is a GreaseMonkey plugin to quickly integrate collabedit.com with your edit
 
 In simple words: you will be able to present your solution on collabedit, coding in your own environment, using ctrl+space, executing the code, etc. 
 
-How to use it:
+#How to use it:
 --------------
-    1. Install GreaseMonkey plugin for firefox. Enable it.
-    2. Add collabedit.user.js to GreaseMonkey configuration (enable it for url patterns: http://collabedit.com/*)
-    3. Setup some light server to serve your source file. For example run in your project directory:
+    #. Install GreaseMonkey plugin for firefox. Enable it.
+    #. Add collabedit.user.js to GreaseMonkey configuration (enable it for url patterns: http://collabedit.com/*)
+    #. Setup some light server to serve your source file. For example run in your project directory:
         python -m SimpleHTTPServer 9914
-    4. Setup your IDE to automatically save your source file every second.
-    5. Go to collabedit.com site and find the plugins controls below the main textarea.
+    #. Setup your IDE to automatically save your source file every second.
+    #. Go to collabedit.com site and find the plugins controls below the main textarea.
 
 Tips:
 -----
-    1. The plugin might be helpful in facebook technical interview. 
-    2. I strongly reccomend you to ask your interviewer for permission, before you use the plugin. 
-    3. You are using it for your own responsibility! I am not responsible for any potential interview failures, caused by the plugin. 
-    4. Double check that the plugin works fine for you. Especially, it may stop working after collabedit software update.
+    #. The plugin might be helpful in facebook technical interview. 
+    #. I strongly reccomend you to ask your interviewer for permission, before you use the plugin. 
+    #. You are using it for your own responsibility! I am not responsible for any potential interview failures, caused by the plugin. 
+    #. Double check that the plugin works fine for you. Especially, it may stop working after collabedit software update.
 
 How does it work:
-    The plugin reads a specified file in short intervals. That means, the file needs to be saved very often in order to let the plugin "see" the changes. 
-    The solution is not very sophisticated, nor effective but for one-time collabedit-collaboration is just enough.
+-----------------
+    * The plugin reads a specified file in short intervals. That means, the file needs to be saved very often in order to let the plugin "see" the changes. 
+    * The solution is not very sophisticated, nor effective but for one-time collabedit-collaboration is just enough.
 
 Limitations:
 ------------
-    1. When the plugin is enabled, all the changes of your collaborators would be overwritten.
-    2. Local source files are not supported. You have to serve it with http. (This is to GreaseMonkey security reasons)
+    #. When the plugin is enabled, all the changes of your collaborators would be overwritten.
+    #. Local source files are not supported. You have to serve it with http. (This is to GreaseMonkey security reasons)
 
 

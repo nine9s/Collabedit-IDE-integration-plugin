@@ -1,10 +1,12 @@
 Collabedit IDE integration plugin
+=================================
 
 This is a GreaseMonkey plugin to quickly integrate collabedit.com with your editor.
 
 In simple words: you will be able to present your solution on collabedit, coding in your own environment, using ctrl+space, executing the code, etc. 
 
 How to use it:
+--------------
     1. Install GreaseMonkey plugin for firefox. Enable it.
     2. Add collabedit.user.js to GreaseMonkey configuration (enable it for url patterns: http://collabedit.com/*)
     3. Setup some light server to serve your source file. For example run in your project directory:
@@ -13,6 +15,7 @@ How to use it:
     5. Go to collabedit.com site and find the plugins controls below the main textarea.
 
 Tips:
+-----
     1. The plugin might be helpful in facebook technical interview. 
     2. I strongly reccomend you to ask your interviewer for permission, before you use the plugin. 
     3. You are using it for your own responsibility! I am not responsible for any potential interview failures, caused by the plugin. 
@@ -23,6 +26,7 @@ How does it work:
     The solution is not very sophisticated, nor effective but for one-time collabedit-collaboration is just enough.
 
 Limitations:
+------------
     1. When the plugin is enabled, all the changes of your collaborators would be overwritten.
     2. Local source files are not supported. You have to serve it with http. (This is to GreaseMonkey security reasons)
 

@@ -5,7 +5,7 @@ This is a GreaseMonkey plugin to quickly integrate collabedit.com with your edit
 
 In simple words: you will be able to present your solution on collabedit, coding in your own environment, using ctrl+space, executing the code, etc. 
 
-#How to use it:
+How to use it:
 --------------
     #. Install GreaseMonkey plugin for firefox. Enable it.
     #. Add collabedit.user.js to GreaseMonkey configuration (enable it for url patterns: http://collabedit.com/*)

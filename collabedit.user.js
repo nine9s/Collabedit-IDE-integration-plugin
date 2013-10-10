@@ -77,7 +77,15 @@ function getNotCacheableFileUrl() {
 function applySourceFileUpdate(response) {
     $("#insertStatus").text(response.statusText + ' ' + new Date());
     var sourceFileContent = response.responseText;
-    unsafeWindow.editAreaLoader.setValue("the_input", sourceFileContent);
-    unsafeWindow.otClient.handleLocalTextChange(sourceFileContent);
+    
+    var currentContent = unsafeWindow.editAreaLoader.getValue("the_input");
+    var start = currentContent.indexOf('/*START*/');
+    var end = currentContent.indexOf('/*END*/');
+    var preText = currentContent.substring(0, start+9);
+    var postText = currentContent.substring(end);
+    var finalContent = preText+sourceFileContent+postText;
+    unsafeWindow.editAreaLoader.setValue("the_input", finalContent);
+    unsafeWindow.otClient.handleLocalTextChange(finalContent);
+
 }
     

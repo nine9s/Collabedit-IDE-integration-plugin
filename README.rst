@@ -29,6 +29,7 @@ How does it work:
 
 Limitations:
 ------------
+    #. Tested only on Firefox
     #. When the plugin is enabled, have a /\*START\*/ and /\*END\*/ Tag so that code will be placed between that instead of overwriting the whole document
     #. Local source files are not supported. You have to serve it with http. (This is to GreaseMonkey security reasons)
 
